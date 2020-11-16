@@ -18,7 +18,7 @@ pygame.display.set_caption('Drop!')
 leftDown = False
 rightDown = False
 
-gameStarted = False
+gameStarted = False 
 gameEnded = False
 gamePlatforms = []
 platformSpeed = 3
