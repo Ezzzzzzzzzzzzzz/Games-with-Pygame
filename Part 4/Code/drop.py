@@ -92,6 +92,8 @@ def movePlayer():
     elif player["x"] + player["width"] < windowWidth and (player["x"] + player["width"]) + 5 > windowWidth:
       player["x"] = windowWidth - player["width"]
 
+
+
 def createPlatform():
 
   global lastPlatform, platformDelay
