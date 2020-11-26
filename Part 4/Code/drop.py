@@ -76,7 +76,6 @@ def movePlayer():
       elif (player["y"] + player["height"]) - yOffset > 0:
         yOffset += 1
       else :
-
         gameOver()
         break
 
@@ -91,7 +90,6 @@ def movePlayer():
       player["x"] += 5
     elif player["x"] + player["width"] < windowWidth and (player["x"] + player["width"]) + 5 > windowWidth:
       player["x"] = windowWidth - player["width"]
-
 
 
 def createPlatform():
